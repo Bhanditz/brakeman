@@ -24,6 +24,7 @@ module Brakeman
   #  * :config_file - configuration file
   #  * :escape_html - escape HTML by default (automatic)
   #  * :exit_on_warn - return false if warnings found, true otherwise. Not recommended for library use (default: false)
+  #  * :exit_on_new_warnings_only - return false if new warnings found, true otherwise.  To be used when a comparison file is specified.
   #  * :highlight_user_input - highlight user input in reported warnings (default: true)
   #  * :html_style - path to CSS file
   #  * :ignore_model_output - consider models safe (default: false)
